@@ -1,0 +1,90 @@
+    html {
+        display: inline-table;
+        margin: 0.5em 0.5em 0 0;
+        margin-top: 0.5em;
+        margin-right: 0.5em;
+        margin-bottom: 0px;
+        margin-left: 0px;
+        font-family: sans-serif;
+        text-align: center;
+        background-color: rgba(200, 200, 100, 1);
+    }
+    :root {
+        --rarity-common-light: #cacaca;
+        --rarity-common-light-rgb: 202,202,202;
+        --rarity-common-dark: #7b7b7b;
+        --rarity-common-dark-rgb: 123,123,123;
+        --rarity-uncommon-light: #80cf3f;
+        --rarity-uncommon-light-rgb: 128,207,63;
+        --rarity-uncommon-dark: #3a7913;
+        --rarity-uncommon-dark-rgb: 58,121,19;
+        --rarity-rare-light: #2fd5e8;
+        --rarity-rare-light-rgb: 47,213,232;
+        --rarity-rare-dark: #1258a2;
+        --rarity-rare-dark-rgb: 18,88,162;
+        --rarity-epic-light: #bd3ffa;
+        --rarity-epic-light-rgb: 189,63,250;
+        --rarity-epic-dark: #460d7f;
+        --rarity-epic-dark-rgb: 70,13,127;
+        --rarity-legendary-light: #fdae53;
+        --rarity-legendary-light-rgb: 253,174,83;
+        --rarity-legendary-dark: #ff7605;
+        --rarity-legendary-dark-rgb: 255,118,5;
+        --interface-light: #556b82;
+        --interface-light-rgb: 85,107,130;
+        --interface-dark: #38434f;
+        --interface-dark-rgb: 56,67,79;
+    }
+    .gunname {
+        width: 368px;
+        height: 48px;
+    }
+    #gunnametext {
+        font-size: 200%;
+        text-transform: uppercase;
+        text-align: center;
+        color: #38434f;
+        font-weight: bold;
+        vertical-align: middle;
+        padding-top: 9px;
+    }
+    #gunimgdata {
+        display: table-row;
+        vertical-align: inherit;
+        border-color: inherit;
+    }
+    #gunImgBg {
+        height: 168px;
+        width: 368px;
+        text-align: center;
+        padding-top: 16px;
+    }
+    #allinfo {
+        position: absolute;
+        left: 40%;
+        top: 20%;
+    }
+    #gunImg {
+        width: 160px;
+        height: 160px;
+        vertical-align: middle;
+    }
+    #spacer {
+        width: 184px;
+        height: 10px;
+        background-color: rgba(0, 0, 0, 0);
+    }
+    audio {
+        visibility: visible;
+    }
+    #randomGunBut {
+        position: absolute;
+        left: 40%;
+        width: 368px;
+        top: 83%;
+        height: 100px;
+        border-radius: 50px;
+        border-color: rgba(255, 0, 0, 0.5);
+        border-width: 5px;
+        background-color: rgba(191, 191, 191, 0.5);
+    }
